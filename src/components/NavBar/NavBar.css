@@ -27,6 +27,7 @@
     border: none;
     background-color: var(--bright-red);
     border-radius: 30px;
+    font-weight: 700;
     padding: 13px 25px;
     color: var(--very-pale-red);
     cursor: pointer;
