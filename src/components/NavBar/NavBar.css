@@ -5,12 +5,13 @@
     height: 70px;
     justify-content: space-between;
     align-items: center;
-
+    padding: 0 20px;   
 }
 
 
 .menu-nav{
     width: 60%;
+    max-width: 600px;
     display: flex;
     justify-content: space-between;
 }
@@ -23,16 +24,3 @@
     opacity: .6 ;
 }
 
-.btn-get-started{
-    border: none;
-    background-color: var(--bright-red);
-    border-radius: 30px;
-    font-weight: 700;
-    padding: 13px 25px;
-    color: var(--very-pale-red);
-    cursor: pointer;
-}
-
-.btn-get-started:hover{
-    opacity: .8;
-}

@@ -3,6 +3,8 @@
 *{
   text-decoration: none;
   font-family: var(--font-family);
+  margin: 0;
+  box-sizing: border-box;
 }
 
 :root{
@@ -13,4 +15,11 @@
   --very-pale-red: hsl(13, 100%, 96%);
   --very-light-gray: hsl(0, 0%, 98%);
   --font-family: "Be Vietnam",sans-serif;
+}
+
+.page-wrapper{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 100vh;
 }

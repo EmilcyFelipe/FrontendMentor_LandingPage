@@ -1,0 +1,16 @@
+.btn-get-started{
+    border: none;
+    background-color: var(--bright-red);
+    border-radius: 30px;
+    font-weight: 700;
+    padding: 13px 25px;
+    color: var(--very-pale-red);
+    cursor: pointer;
+    flex:none;
+    width: 130px;
+    box-shadow: 0 .2rem 8px rgba(0, 0, 0, 0.473);
+}
+
+.btn-get-started:hover{
+    opacity: .8;
+}

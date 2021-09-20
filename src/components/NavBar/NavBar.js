@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../../images/logo.svg'
 import './NavBar.css'
+import Button from '../Button/Button'
 
 export default function NavBar(){
     return(
@@ -16,7 +17,7 @@ export default function NavBar(){
                 <a className="menu-option" href="">Careers</a>
                 <a className="menu-option" href="">Community</a>
             </div>
-            <button className="btn-get-started">Get Started</button>
+            <Button/>
         </div>
         </>
     )
