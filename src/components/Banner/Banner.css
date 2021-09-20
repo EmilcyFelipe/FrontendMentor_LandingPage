@@ -17,6 +17,7 @@
 .banner-info p{
     text-align: left;
     margin: 50px 0;
+    color: var(--dark-grayish-blue);
 }
 
 .graphs{
