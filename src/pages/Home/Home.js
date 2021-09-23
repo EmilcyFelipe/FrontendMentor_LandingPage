@@ -5,6 +5,7 @@ import "./Home.css";
 import FeedbackWrapper from "../../components/Feedback_wrapper/Feedback_wrapper";
 import Button from "../../components/Button/Button";
 import Footer from "../../components/Footer/Footer";
+import Simplify from "../../components/Simplify/Simplify";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
           <Button/>
         </div>
       </div>
+      <Simplify/>
       <Footer/>
     </div>
   );
