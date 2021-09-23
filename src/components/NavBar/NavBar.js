@@ -8,7 +8,7 @@ export default function NavBar(){
         <>
         <div className="navBar-wrapper">
             <div className="logo-wrapper">
-                <img src={Logo} alt="Logo"/>
+                <a href=""><img src={Logo} alt="Logo"/></a>
             </div>
             <div className="menu-nav">
                 <a className="menu-option" href="">Pricing</a>
