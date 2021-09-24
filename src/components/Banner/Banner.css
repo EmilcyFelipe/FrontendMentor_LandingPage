@@ -6,7 +6,8 @@
 }
 .banner-info{
     width: 50%;
-    
+    display: flex;
+    flex-direction: column;
 }
 .banner-info h1{
     text-align: left;
@@ -28,9 +29,38 @@
     align-items: center;
 }
 
-@media screen and (max-width:950px) {
+@media screen and (max-width:1050px) {
     .banner-info h1{
-        font-size: 10px ;
+        font-size: 18px ;
     }
-    
+    .graphs img{
+        width: 70%;
+        
+    }
+}
+
+@media screen and (max-width:800px) {
+    .banner-wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-info {
+        order: 2;
+        align-items: center;
+        width: 100%;
+    }
+    .banner-info h1{
+        font-size: 25px ;
+        max-width: 300px;
+        text-align:left;
+    }
+    .graphs{
+        order: 1;
+        width: 100%;
+        justify-content: center;
+        
+    }
+    .graphs img{
+        width: 100%;
+    }
 }
