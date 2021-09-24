@@ -1,0 +1,37 @@
+.feedback-item{
+    width: 450px;
+    height: 200px;
+    background-color: var(--very-light-gray);
+    position: relative;
+    flex:none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: scale(.95);
+    padding: 10px;
+}
+
+.feedback-item img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -25px;
+}
+
+.feedback-item h5{
+    color: var(--dark-blue);
+    margin-bottom: 10px;
+}
+
+.feedback-item p{
+    color: var(--dark-grayish-blue);
+}
+
+@media screen and (max-width:800px){
+    .feedback-item{
+        width: 375px;
+    }
+
+}
+
