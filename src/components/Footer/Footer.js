@@ -1,17 +1,15 @@
 import React from 'react';
-import { useState } from 'react';
 import fb from '../../images/icon-facebook.svg';
 import ins from '../../images/icon-instagram.svg';
 import pi from '../../images/icon-pinterest.svg';
 import tw from '../../images/icon-twitter.svg';
 import yt from '../../images/icon-youtube.svg';
-import logo from '../../images/logo.svg'
 import './Footer.css'
 
 
 
 export default function Footer(){
-    const [emailValidation,setEmailValidation]=React.useState("");
+    // const [emailValidation,setEmailValidation]=React.useState("");
     
     return(
         <div className="footer-wrapper">
