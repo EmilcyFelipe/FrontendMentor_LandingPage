@@ -26,13 +26,13 @@ export default function Footer(){
                     </div>
             </div>
             <div className="footer-links">
-                <a href="">Home</a>
-                <a href="">Carees</a>
-                <a href="">Pricing</a>
-                <a href="">Community</a>
-                <a href="">Products</a>
-                <a href="">Privacy Policy</a>
-                <a href="">About Us</a>
+                <a href="#1-slide">Home</a>
+                <a href="#1-slide">Carees</a>
+                <a href="#1-slide">Pricing</a>
+                <a href="#1-slide">Community</a>
+                <a href="#1-slide">Products</a>
+                <a href="#1-slide">Privacy Policy</a>
+                <a href="#1-slide">About Us</a>
             </div>
             <div className="form-wrapper">
                 <form className="email-input-wrapper" >

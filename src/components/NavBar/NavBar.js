@@ -21,14 +21,14 @@ export default function NavBar(){
         <>
         <div className="navBar-wrapper">
             <div className="logo-wrapper">
-                <a href=""><img src={Logo} alt="Logo"/></a>
+                <a href="#1-slide"><img src={Logo} alt="Logo"/></a>
             </div>
             <div className="menu-nav">
-                <a className="menu-option" href="">Pricing</a>
-                <a className="menu-option" href="">Product</a>
-                <a className="menu-option" href="">About Us</a>
-                <a className="menu-option" href="">Careers</a>
-                <a className="menu-option" href="">Community</a>
+                <a className="menu-option" href="#1-slide">Pricing</a>
+                <a className="menu-option" href="#1-slide">Product</a>
+                <a className="menu-option" href="#1-slide">About Us</a>
+                <a className="menu-option" href="#1-slide">Careers</a>
+                <a className="menu-option" href="#1-slide">Community</a>
             </div>
             <div className="nav-button">
                 <Button/>
