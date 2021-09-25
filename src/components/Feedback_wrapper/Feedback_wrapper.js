@@ -11,7 +11,9 @@ export default function FeedbackWrapper(){
     
     var margin = 0;
     const[pointSlider,setPointSlider] = React.useState();
+    
 
+    //Desktop function slider
     function handleSlider(e){
         let slider = document.querySelector('.feedback-slider');
         if(e.target.className==="left"){
@@ -27,11 +29,12 @@ export default function FeedbackWrapper(){
         }
     }
 
+    //Select mobile the slider by event click
     function handleSliderSelect(e){
+        let sliderMobile=document.querySelector(".feedback-slider");
         if(pointSlider){
             pointSlider.style="background:none"
         }
-        let sliderMobile=document.querySelector(".feedback-slider");
         switch(parseInt(e.target.id.split('-')[0])){
             case 1 : 
                 sliderMobile.style.marginLeft="0";
@@ -48,11 +51,24 @@ export default function FeedbackWrapper(){
             default:
                 break;
         }
-       
-        document.querySelector(".feedback-slider")
         e.target.style="background-color:var(--bright-red)"
         setPointSlider(e.target)
     }
+    
+     //translate slider by time at mobile mode
+     setInterval(timeTranslate,5000)
+        var marginByTime = -375;
+     function timeTranslate(){
+        let el = document.querySelector(".translate-slider-mobile")
+        if(window.getComputedStyle(el).display==="flex"){
+            let sliderMobile=document.querySelector(".feedback-slider");
+            sliderMobile.style.marginLeft=`${marginByTime}px`;
+            marginByTime-=375;
+            if(marginByTime<(-1125)){
+                 marginByTime=0;
+            }
+        }
+     }
 
     return(
         <div className="feedback-wrapper">
@@ -68,7 +84,7 @@ export default function FeedbackWrapper(){
                 <div className="right" onClick={handleSlider}>&gt;</div>
             </div>
             <div className="translate-slider-mobile">
-                <div id="1-slide" className="point-slider" onClick={handleSliderSelect}></div>
+                <div id="1-slide" className="point-slider" onClick={timeTranslate}></div>
                 <div id="2-slide" className="point-slider" onClick={handleSliderSelect}></div>
                 <div id="3-slide" className="point-slider" onClick={handleSliderSelect}></div>
                 <div id="4-slide" className="point-slider" onClick={handleSliderSelect}></div>
