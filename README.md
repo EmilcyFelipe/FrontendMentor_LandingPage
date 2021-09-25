@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontendsolution](https://www.frontendmentor.io/solutions/reactjs-_tq7XBoSa)
 - Live Site URL: [Netlify](https://manage-landigpage-felipe-de-paula.netlify.app/)
 
 ## My process
