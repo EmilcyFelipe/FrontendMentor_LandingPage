@@ -11,16 +11,12 @@ This is a solution to the [Manage landing page challenge on Frontend Mentor](htt
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
 
 ## Overview
 This is a responsive landing page challenge set by Frontend Mentor. Besides that, there is a different slider to the desktop device and to the mobile. 
 
 ### The challenge
-
-
-
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
@@ -32,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![ScreenShot]()
+![ScreenShot](https://github.com/EmilcyFelipe/FrontendMentor_LandingPage/blob/master/screenshot.png)
 
 
 ### Links
@@ -41,6 +37,7 @@ Users should be able to:
 - Live Site URL: [Netlify](https://manage-landigpage-felipe-de-paula.netlify.app/)
 
 ## My process
+So, i start planning the struture of the project, the process ocurred naturaly, until the svg background. I have some difficult in this part is because i actually don't edit svg before. But in the end i overcome this issue, actually i realize that is not much different from css and i could accomplished.
 
 ### Built with
 
@@ -52,12 +49,8 @@ Users should be able to:
 
 ### What I learned
 
+This was a great oportunity to pratice some reuse of components
 
-
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
 
 ## Author
